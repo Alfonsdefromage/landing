@@ -1,0 +1,164 @@
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.card-header {
+  height: 65px;
+  display: flex;
+  background-color: #0A2E36;
+  color:#FFDD4A;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-header img {
+  height: 100%;
+}
+
+.card-header-text {
+  height: 100%;
+  font-size: 12px;
+  line-height: 0.5;
+  margin-left: 12px;
+}
+
+.card-banner {
+  background-size: cover;
+  padding: 250px;
+  background-position: top;
+  line-height: 0.5;
+}
+
+.card-banner h2 {
+  color: white;
+  font-size: 24px;
+  margin-left: -100;
+}
+
+.card-banner p {
+  font-weight: bold;
+  font-size: 18px;
+  color:antiquewhite;
+  margin-bottom: 50px;
+  margin-left: -100;
+}
+
+.card-banner a {
+  padding: 15px 25px;
+  background-color: #FFDD4A;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #0A2E36;
+  margin-left: -100;
+  border: solid 2px;
+}
+
+.card-banner a:hover{
+  background-color: #0a2e36;
+  color: #DDDD4a;
+  transition: .2s;
+}
+
+.card-main {
+  background-color: #0a2e36;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.card-about-us {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  align-items: top;
+  margin: 16px;
+  border: solid 1px;
+  color: #FFDD4A;
+  /* gap: 16px; */
+  margin: 16px;
+}
+
+.card-about-us-small {
+  width: 100%;
+  text-align: center;
+  margin: 16px;
+}
+
+.card-about-us-small img {
+  width: 100%;
+}
+
+.card-info {
+  font-size: 12px;
+  color:#FFDD4A;
+}
+
+.card-testimonial {
+  color:#FFDD4A;
+  border: solid 1px;
+  margin: 16px;
+  position: relative;
+  width: 50%;
+}
+
+.card-testimonial h2 {
+  text-align: center;
+  margin-right: 80px;
+}
+
+.card-testimonial-example {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 180px;
+  margin-top: 16px;
+  /* position: absolute; */
+  left: 32px;
+}
+
+.card-testimonial-example h2 {
+  text-align: left;
+}
+
+.card-testimonial-example img {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+  border-radius: 50%;
+  border: solid 1px;
+  margin-left: 16px;
+}
+
+.card-testimonial-example-info {
+  padding: 43px;
+  text-align: left;
+  font-size: 15px;
+  color: #FFDD4A;
+}
+
+.card-footer {
+  background-color: #001B2E;
+  padding: 35px;
+}
+
+.card-video-embedet {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-icons {
+  display: flex;
+  gap: 16px;
+  align-content: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.card-reserved {
+  display: flex;
+  gap: 16px;
+  align-content: center;
+  justify-content: center;
+  font-size: 8px;
+  color: aliceblue;
+}
